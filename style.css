@@ -1,0 +1,18 @@
+body {
+    background-color: #242526;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.card {
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+}
