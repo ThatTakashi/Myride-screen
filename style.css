@@ -1,17 +1,22 @@
 body {
-    background-color: #242526;
+    background-color: black;
     color: white;
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
 
-h1 {
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
     text-align: center;
-    margin-top: 100px;
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:visited {
@@ -20,13 +25,60 @@ a:visited {
 
 .wrapper {
     padding-left: 6.5%;
-    margin-top: 10vh;
+    margin-top: 6vh;
 }
 
-.card {
-    background-color: grey;
+.card1 {
+    background-color: rgba(186, 213, 49, 1);
+    background-image: url("shop.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
     width: 23%;
     height: 500px;
     display: inline-block;
     text-align: center;
+}
+
+.card2 {
+    background-color: rgba(186, 213, 49, 1);
+    background-image: url("scott.png");
+    background-position: 400px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 23%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card3 {
+    background-color: rgba(186, 213, 49, 1);
+    background-image: url("bosch.webp");
+    background-position: 600px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 23%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+.card4 {
+    background-color: rgba(186, 213, 49, 1);
+    background-image: url("avanti.jpeg");
+    background-position: 600px;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 23%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text {
+    background-color: rgba(36, 37, 38, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 410px;
 }
