@@ -1,6 +1,12 @@
 body {
     background-color: #242526;
     color: white;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
 }
 
 a {
@@ -11,8 +17,15 @@ a:visited {
     color: white;
 }
 
+.wrapper {
+    padding-left: 6.5%;
+    margin-top: 10vh;
+}
+
 .card {
     background-color: grey;
-    height: 150px;
-    width: 150px;
+    width: 23%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
 }
